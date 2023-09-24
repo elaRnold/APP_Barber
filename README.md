@@ -1,2 +1,2 @@
 # APP_Barber
-![Imagen de la App](src/img/Captura de pantalla (194).png)
+![Imagen de la App](src/img/Capturadepantalla(194).png)
