@@ -1,0 +1,22 @@
+{
+    "name": "junior/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP 8, MVC, SASS, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arnaldo Benavides",
+            "email": "arnaldobenavides@uninorte.edu.co"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
