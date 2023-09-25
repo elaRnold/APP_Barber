@@ -26,15 +26,12 @@ class Email
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'barbershopappcol@gmail.com';
-            $mail->Password = 'bjeqlyykinfhwpan';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port = 465;
 
             // contenido email
             $mail->setFrom('barbershopappcol@gmail.com');
             $mail->addAddress($this->email);
-            // $mail->addAddress('cuentas@appsalon.com', 'AppSalon.com');
             $mail->Subject = 'Confirma tu Cuenta';
 
             // Set HTML
@@ -68,8 +65,6 @@ class Email
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'barbershopappcol@gmail.com';
-        $mail->Password = 'bjeqlyykinfhwpan';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = 465;
 
